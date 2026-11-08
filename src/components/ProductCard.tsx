@@ -99,9 +99,6 @@ export default function ProductCard({ product }: { product: IProduct }) {
               </div>
             </div>
 
-            {/* <div className="w-9 h-9 rounded-full bg-slate-100/80 group-hover:bg-[#0d6efd] text-slate-500 group-hover:text-white flex items-center justify-center transition-colors shrink-0">
-              <ArrowRight size={16} />
-            </div> */}
           </Card.Footer>
         </div>
       </Card>

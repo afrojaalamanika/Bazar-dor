@@ -13,23 +13,14 @@ export default function HeroSection() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
         {/* Left Column: Text Content & CTA */}
         <div className="lg:col-span-7 flex flex-col items-start text-left">
-          {/* Top Update Badge */}
-          {/* <Chip className="px-3.5 py-1.5 h-auto rounded-full bg-blue-50/90 border border-blue-200/80 text-[#0d6efd] text-xs sm:text-sm font-semibold flex items-center gap-1.5 shadow-2xs mb-5">
-            <Sparkles size={15} className="text-[#0d6efd] shrink-0" />
-            <span>বাংলাদেশের ভ্রমণ ভাড়ার আপডেট</span>
-          </Chip> */}
-
-          {/* Main Heading */}
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-[1.2] sm:leading-[1.18] text-slate-900">
             আজকের বাজারের দাম এক নজরে
           </h1>
 
-          {/* Subtitle / Description */}
           <p className="mt-5 text-sm sm:text-base text-slate-600 leading-relaxed max-w-xl">
             চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম ও মসলার দাম — বাজারভিত্তিক বিস্তারিত, গড়, সর্বনিম্ন-সর্বাধিক এবং দামের পরিবর্তন এক জায়গায়।
           </p>
 
-          {/* Action Row */}
           <div className="mt-8 flex flex-wrap items-center gap-4 sm:gap-6">
             <Link href={"/#all-products"}>
               <Button
@@ -48,7 +39,6 @@ export default function HeroSection() {
         </div>
 
      
-        {/* Right Column: Popular Routes Card */}
   <div className="lg:col-span-5 w-full flex justify-center">
   
   <Image
