@@ -5,38 +5,7 @@ import { Button, Card, Chip } from "@heroui/react";
 import { Sparkles, ArrowDown, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-// const POPULAR_ROUTES = [
-//   {
-//     id: 1,
-//     slug: "dhaka-to-chattogram-ac-bus",
-//     icon: "🚌",
-//     nameBn: "ঢাকা → চট্টগ্রাম",
-//     serviceType: "AC বাস",
-//     fare: "১,২০০ টাকা",
-//     changeDir: "up",
-//     changePct: "২.৫%",
-//   },
-//   {
-//     id: 19,
-//     slug: "dhaka-to-coxbazar-economy-flight",
-//     icon: "✈️",
-//     nameBn: "ঢাকা → কক্সবাজার",
-//     serviceType: "ইকোনমি ফ্লাইট",
-//     fare: "৫,৫০০ টাকা",
-//     changeDir: "up",
-//     changePct: "৪.২%",
-//   },
-//   {
-//     id: 8,
-//     slug: "dhaka-to-sylhet-train",
-//     icon: "🚆",
-//     nameBn: "ঢাকা → সিলেট",
-//     serviceType: "ট্রেন (শোভন/স্নিগ্ধা)",
-//     fare: "৫৫০ টাকা",
-//     changeDir: "down",
-//     changePct: "১.৩%",
-//   },
-// ];
+
 
 export default function HeroSection() {
   return (
