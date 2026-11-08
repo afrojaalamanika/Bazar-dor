@@ -81,7 +81,6 @@ const ProductDetailsPage = async ({
     ...markets.map((market) => market.max)
   );
 
-  // Average price of all markets
   const avgPrice =
     markets.length > 0
       ? markets.reduce(
