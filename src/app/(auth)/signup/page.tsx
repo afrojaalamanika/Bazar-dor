@@ -34,13 +34,11 @@ export default function SignUpPage() {
       return;
     }
 
-    // console.log("Sign Up Data:", data);
     const { data: resData, error } = await signUp.email({
       email: data.email as string, // user email address
       password: data.password as string, // user password -> min 8 characters by default
       name: data.name as string, // user display name
     });
-    // console.log(resData, error);
     if (resData?.user.name) {
       toast.success("Account Created Successfully, Login to continue");
       router.push("/signin");
