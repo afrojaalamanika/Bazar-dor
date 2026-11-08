@@ -53,13 +53,11 @@ const loading = () => {
                 <div className="h-6 w-16 bg-slate-200/80 rounded-full" />
               </div>
 
-              {/* রুটের নাম ও দূরত্ব/সময় */}
               <div className="space-y-2 pt-1">
                 <div className="h-5 w-3/4 bg-slate-200 rounded-md" />
                 <div className="h-3.5 w-1/2 bg-slate-200/70 rounded-md" />
               </div>
 
-              {/* নিচের ডিভাইডার ও ভাড়ার অংশ */}
               <div className="pt-3 border-t border-slate-100 flex items-end justify-between">
                 <div className="space-y-2">
                   <div className="h-3 w-28 bg-slate-200/70 rounded-md" />
